@@ -15,5 +15,5 @@ class JogadorVirtual extends Jogador
         int linha = rng.nextInt(3);
         int coluna = rng.nextInt(3);
         return new int[]{linha, coluna};
-    }
+ }
 }
